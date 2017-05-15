@@ -1,6 +1,7 @@
-# Web Praha
+# Web Liberec
 
-Web Pirátů v Praze. Web je zamýšlen pro celé krajské sdružení - zastupitele (magistrát i mč), veřejnost, členy i pracovníky. Běží na adrese: http://praha.pirati.cz
+Web Pirátů v Libereckém kraji. Vychází z webu Prahy.
+Web je zamýšlen pro celé krajské sdružení.
 
 Pro psaní článků je třeba umět [markdown](https://daringfireball.net/projects/markdown/). Pro zbylé úpravy html a css framework [Foundation 6](http://foundation.zurb.com/). Takže je třeba seznámit se alespoň se základy gitu.
 
