@@ -1,7 +1,7 @@
 <header>
   <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
     <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Piráti Praha: menu</div>
+    <div class="title-bar-title">Piráti Liberecký kraj: menu</div>
   </div>
 
   <div class="row">
@@ -18,6 +18,10 @@
             <li {% if page.url == "/blog/" or page.layout == "post" %}class="active"{% endif %}>
               <a href="/blog/">Aktuality</a>
             </li>
+            <li {% if page.url == "/lide/" %}class="active"{% endif %}>
+              <a href="/lide/">Lidé</a>
+            </li>
+            <!--
             <li {% if page.url == "/o-nas/" or page.url == "/mestske-casti/" or page.layout == "lide" %}class="active"{% endif %}>
               <a href="/o-nas/">O nás</a>
             </li>
@@ -29,6 +33,7 @@
             <li {% if page.url == "/transparence/" %}class="active"{% endif %}>
               <a href="/transparence/">Transparence</a>
             </li>
+            -->
             <li {% if page.url == "/kontakt/" %}class="active"{% endif %}>
               <a href="/kontakt/">Kontakt</a>
             </li>
@@ -40,9 +45,9 @@
 
   <div class="align-middle black-bar expanded">
     <div class="row align-middle">
-      <div class="large-3 columns">
+      <div class="small-12 large-6 columns">
         <a href="/">
-          <img src="/assets/img/layout/logo-pirati-praha.png" alt="Piráti logo" height="100px" />
+          <img src="/assets/img/layout/pirati_liberecky_kraj_logo.svg" alt="Piráti logo"  />
         </a>
       </div>
     </div>

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="row" itemscope itemtype="http://schema.org/BlogPosting">
-
+  <div class='small-12 columns' style='margin-top:1.4em;'>
   <header class="post-header">
     <h1 class="post-title text-center" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta text-center">
@@ -17,10 +17,11 @@ layout: default
       {% endif %}
     </p>
   </header>
+  </div>
 
-  <div itemprop="articleBody">
+  <div class='small-12 columns' itemprop="articleBody">
     <img src="{{ page.image | prepend: "/assets/img/posts/" }}"
-      alt="{{ page.title }}" class="float-right thumbnail" style="margin: 10px;">
+      alt="{{ page.title }}" class="float-right thumbnail"  style='margin:0 0 0.8em 0.8em;' >
     {% if page.now %}<span class="label alert">Aktualizováno</span> {{page.now}}{% endif %}
     {{ content }}
   </div>
@@ -39,17 +40,16 @@ layout: default
         href="https://twitter.com/intent/tweet?text={{ "Piráti Praha: " | cgi_escape}}{{ page.title | cgi_escape}}">
       Tweet</a></p>
     </div>
-    <div class="large-3 columns">
+    <div class="large-3 columns" style='overflow:hidden;'>
       <div
         class="fb-like"
         data-share="true"
-        data-width="450"
         data-show-faces="true">
       </div>
     </div>
-    <div class="large-3 columns text-right show-for-medium-up">
+    <div class="large-3 columns text-right show-for-medium">
      <small>
-      <a href="https://github.com/pirati-web/praha.pirati.cz/edit/gh-pages/{{ page.path }}" style="color:#888888">Navrhni úpravu</a>
+      <a href="https://github.com/pirati-web/liberecko.pirati.cz/edit/gh-pages/{{ page.path }}" style="color:#888888">Navrhni úpravu</a>
      </small>
     </div>
 </div>
